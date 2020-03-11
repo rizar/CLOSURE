@@ -4,7 +4,7 @@
 
 by Dzmitry Bahdanau, Harm de Vries, Timothy J. O'Donnell, Shikhar Murty, Philippe Beaudoin, Yoshua Bengio, Aaron Courville
 
-This repository contains the original code that was used to obtain the reported results. See the NOTICE file for licensing information.
+This repository contains the original code that was used to obtain the reported results. See the NOTICE\_AND\_LICENSE file for licensing information.
 
 ## Setup
 
