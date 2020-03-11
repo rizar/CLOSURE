@@ -1,0 +1,15 @@
+name: closure
+channels:
+    - pytorch
+    - defaults
+dependencies:
+    - python=3.6
+    - pytorch
+    - cuda90
+    - torchvision
+    - h5py
+    - numpy
+    - scipy=1.2
+    - tqdm
+    - termcolor
+    - pillow

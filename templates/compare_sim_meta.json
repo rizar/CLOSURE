@@ -1,0 +1,163 @@
+[{
+  "text": [
+    "There is another <Z2> <C2> <M2> <S2> that is the same %attr% as the <Z> <C> <M> <S>; does it have the same %query% as the <Z3> <C3> <M3> <S3>?"
+  ],
+  "nodes": [
+    {
+      "inputs": [],
+      "type": "scene"
+    },
+    {
+      "side_inputs": [
+        "<Z>",
+        "<C>",
+        "<M>",
+        "<S>"
+      ],
+      "inputs": [
+        0
+      ],
+      "type": "filter_unique"
+    },
+    {
+      "inputs": [
+        1
+      ],
+      "type": "same_%attr%"
+    },
+    {
+      "side_inputs": [
+        "<Z2>",
+        "<C2>",
+        "<M2>",
+        "<S2>"
+      ],
+      "inputs": [
+        2
+      ],
+      "type": "filter_unique"
+    },
+    {
+      "inputs": [
+        3
+      ],
+      "type": "query_%query%"
+    },
+    {
+      "inputs": [],
+      "type": "scene"
+    },
+    {
+      "side_inputs": [
+        "<Z3>",
+        "<C3>",
+        "<M3>",
+        "<S3>"
+      ],
+      "inputs": [
+        5
+      ],
+      "type": "filter_unique"
+    },
+    {
+      "inputs": [
+        6
+      ],
+      "type": "query_%query%"
+    },
+    {
+      "inputs": [
+        4,
+        7
+      ],
+      "type": "equal_%query%"
+    }
+  ],
+  "params": [
+    {
+      "type": "Size",
+      "name": "<Z>"
+    },
+    {
+      "type": "Color",
+      "name": "<C>"
+    },
+    {
+      "type": "Material",
+      "name": "<M>"
+    },
+    {
+      "type": "Shape",
+      "name": "<S>"
+    },
+    {
+      "type": "Relation",
+      "name": "<R>"
+    },
+    {
+      "type": "Size",
+      "name": "<Z2>"
+    },
+    {
+      "type": "Color",
+      "name": "<C2>"
+    },
+    {
+      "type": "Material",
+      "name": "<M2>"
+    },
+    {
+      "type": "Shape",
+      "name": "<S2>"
+    },
+    {
+      "type": "Size",
+      "name": "<Z3>"
+    },
+    {
+      "type": "Color",
+      "name": "<C3>"
+    },
+    {
+      "type": "Material",
+      "name": "<M3>"
+    },
+    {
+      "type": "Shape",
+      "name": "<S3>"
+    }
+  ],
+  "constraints": [
+    {
+      "params": [
+        3,
+        6
+      ],
+      "type": "OUT_NEQ"
+    },
+    {
+      "params": [
+        "<%A%>"
+      ],
+      "type": "NULL"
+    },
+    {
+      "params": [
+        "<%A%2>"
+      ],
+      "type": "NULL"
+    },
+    {
+      "params": [
+        "<%Q%2>"
+      ],
+      "type": "NULL"
+    },
+    {
+      "params": [
+        "<%Q%3>"
+      ],
+      "type": "NULL"
+    }
+  ]
+}]

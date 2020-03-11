@@ -1,0 +1,21 @@
+NOTICE / LICENSE
+
+This code is released under the MIT License (https://opensource.org/licenses/MIT) in association with the following paper: CLOSURE: Assessing Systematic Generalization of CLEVR Models (https://arxiv.org/abs/1912.05783). 
+
+This paper was produced as part of Dzmitry Bahdanau's PhD thesis (On Sample Efficiency and Systematic Generalization of Grounded Language Understanding With Deep Learning) at Université de Montréal.
+
+Copyright 2019-present - Dzmitry Bahdanau
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Parts of the code are based on the following codebases: 
+
+https://github.com/facebookresearch/clevr-iep,  Copyright 2017-present, Facebook, Inc., licensed under Creative Commons- Attribution-NonCommercial 4.0 International (https://github.com/facebookresearch/clevr-iep/blob/master/LICENSE), which requires that notice be given of this license's disclaimer of warranties.
+
+https://github.com/facebookresearch/clevr-dataset-gen, Copyright 2017-present, Facebook, Inc., licensed under BSD License (https://github.com/facebookresearch/clevr-dataset-gen/blob/master/LICENSE).
+
+https://github.com/ethanjperez/film, Licensed under Creative Commons- Attribution-NonCommercial 4.0 International (https://github.com/facebookresearch/clevr-iep/blob/master/LICENSE), which requires that notice be given of this license's disclaimer of warranties.  
